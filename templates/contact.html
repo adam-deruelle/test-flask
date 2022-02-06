@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <h1>Subscribe</h1>
+    <br><br/>
+
+    <section class="py-5 text-center container">
+      <form action="/valide" method="POST">
+        <div class="mb-3">
+          <input type="text" class="form-control" id="exampleInputEmail1"
+           aria-describedby="emailHelp" placeholder="Prenom" name="prenom">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Nom" name="nom">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Email Adress" name="email">
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Autre moyen de communication" name="communication">
+        </div>
+        <br>
+        <button type="submit" class="button">Submit</button>
+    </form>
+    </section>
+    
+</div>
+
+{% endblock %}
