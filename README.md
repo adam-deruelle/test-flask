@@ -1,8 +1,9 @@
 # Lancer le site
 
 1. Installer Bash (https://git-scm.com/downloads)
-2. Se placer dans le dossier du site
-3. Entrer les commandes:  
+2. Installer sqlite3
+3. Se placer dans le dossier du site
+4. Entrer les commandes:  
 
 * mkdir virtual
 * python -m venv vitrual
