@@ -1,8 +1,8 @@
 # Lancer le site
 
 1. Installez Bash (https://git-scm.com/downloads)
-2. Ce placez dans le dossier du site
-3. Enterez les commandes: mkdir virtual
+2. Se placer dans le dossier du site
+3. Entrez les commandes:  mkdir virtual
                           python -m venv vitrual
                           source virtual/Scpripts/activate
                           pip install flask
