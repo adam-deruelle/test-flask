@@ -6,7 +6,7 @@
 4. Entrer les commandes:  
 
 * mkdir virtual
-* python -m venv vitrual
+* python -m venv virtual
 * source virtual/Scripts/activate ou sur Linux source virtual/bin/activate
 * pip install flask
 * export FLASK_APP=app
